@@ -1,0 +1,16 @@
+{
+  "name": "redis",
+  "version": "1.0.0",
+  "description": "Using Redis as a cashing engine for the swapi API",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tyson Schmall",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "express": "^4.17.1",
+    "redis": "^3.0.2"
+  }
+}
